@@ -1,7 +1,6 @@
 import { v4 as uuidv4 } from "uuid";
 import pdf1 from "./1000BasicEnglishWords1.pdf";
 import pdf2 from "./IELTSVocab3.pdf";
-import pdf3 from "./LizGrammarWorkBook.pdf";
 import pdf4 from "./top100eng.pdf";
 import pdf5 from "./top50grammistake.pdf";
 import ruspdf1 from "./1000mostuse.pdf";
@@ -23,12 +22,7 @@ export const files = [
     file: pdf2,
     type: "PDF",
   },
-  {
-    id: uuidv4(),
-    name: "Liz Grammar Work Book",
-    file: pdf3,
-    type: "PDF",
-  },
+
   {
     id: uuidv4(),
     name: "Top 100 Words",
