@@ -1,9 +1,9 @@
 import React from "react";
 import Sidebar from "./pages/sidebar/Sidebar";
-import { BrowserRouter, Routes, Route } from "react-router-dom"; // <- E'tibor bering: "react-router-dom"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 import Navbar from "./pages/navbar/Navbar";
-import Edu from "./pages/edu.jsx/edu";
+import Edu from "./pages/edu"; // ✅ .jsx kerak emas
 import Russian from "./pages/russian/Russian";
 import English from "./pages/english/English";
 import Contact from "./pages/contact/Contact";
