@@ -7,6 +7,8 @@ import Edu from "./pages/edu/Edu";
 import Russian from "./pages/russian/Russian";
 import English from "./pages/english/English";
 import Contact from "./pages/contact/Contact";
+import Music from "./pages/music/Music";
+import Movie from "./pages/movies/Movie";
 
 function App() {
   return (
@@ -21,6 +23,9 @@ function App() {
                 <Route path="/" element={<Edu />} />
                 <Route path="/rus" element={<Russian />} />
                 <Route path="/eng" element={<English />} />
+                <Route path="/music" element={<Music />} />
+                <Route path="/movie" element={<Movie />} />
+
                 <Route path="/contact" element={<Contact />} />
               </Routes>
             </main>
